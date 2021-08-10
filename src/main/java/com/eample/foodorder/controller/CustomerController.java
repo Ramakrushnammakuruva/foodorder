@@ -19,6 +19,7 @@ public class CustomerController {
     @RequestMapping(value="/save",method= RequestMethod.POST)
     public ModelAndView save(@ModelAttribute Customer customer)
     {
+        //hi com
 //        Customer customer1=new Customer();,fleji
 //        customer1.setName("krishna");
 //        customer1.setEmail("kr@mail.om");
