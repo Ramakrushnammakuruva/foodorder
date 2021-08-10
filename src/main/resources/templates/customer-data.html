@@ -1,0 +1,20 @@
+<html xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>hello ....</h3>
+<table>
+    <tr>
+        <td><h4>CostomerName:</h4></td>
+
+        <td><<h4 th:text="${customer.name}"></h4></td>
+    </tr>
+    <tr>
+        <td><h4>EmailId:</h4></td>
+        <td><h4 th:text="${customer.email}"></h4></td>
+    </tr>
+</table>
+</body>
+</html>
